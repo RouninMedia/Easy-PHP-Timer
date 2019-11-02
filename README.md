@@ -1,13 +1,12 @@
 # Easy-PHP-Timer
-A quick PHP Script for time-testing PHP Functions, Scripts and Processes.
+An easy-to-implement PHP Script for time-testing PHP Functions, Scripts and Processes.
 
 ```
 $Start_Seconds = microtime(true);
 
 for ($i = 0; $i < 1000; $i++) {
 
-  $Test_String = createScript($Test_Script_JSON);
-  $Time_Test_Array[] = $Test_String;
+  // PROCESSES TO TEST
 }
 
 $End_Seconds = microtime(true);
